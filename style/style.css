@@ -48,6 +48,7 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-family: "Angelica Pro Display";
+  background-color: #FBEFE1;
 }
 html {
   scroll-behavior: smooth;
@@ -55,7 +56,7 @@ html {
 
 body.lock {
   overflow: hidden;
-  background-color: #e3e3e3;
+  background-color: #FBEFE1;
 }
 
 input,
@@ -109,7 +110,7 @@ h6 {
   margin: 0 auto;
   margin-top: 100px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #FBEFE1;
 }
 
 .header__navigation {
@@ -119,11 +120,12 @@ h6 {
 .menu__page__wrapper {
   width: 100%;
   min-height: 100vh;
+  background-color: #FBEFE1;
 }
 .menu__page__content {
   margin: 50px;
 
-  box-shadow: 0px 4px 4px rgba(255, 102, 54, 0.15);
+  box-shadow: 0px 0px 10px #085182;
   border-radius: 14px;
   padding: 30px;
   display: flex;
@@ -144,8 +146,9 @@ h6 {
 
 }
 .menu__page__border{
-  border-top: 0.5px solid rgb(207, 58, 16, 0.2);
-  border-bottom: 0.5px solid rgb(207, 58, 16, 0.2);
+  border-top: 0.5px solid rgb(0, 0, 0, 0.1);
+  border-bottom: 0.5px solid rgb(0, 0, 0, 0.1);
+
 }
 .menu__page__block__img {
   width: 37px;
@@ -157,7 +160,7 @@ h6 {
 .menu__page__block__text {
   margin-left: 20px;
   height: 20px;
-color: #CF3A10;
+color: #085182;
 font-size: 17px;
 font-weight: 400;
 line-height: 20px;
