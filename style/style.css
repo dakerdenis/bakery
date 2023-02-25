@@ -178,6 +178,7 @@ text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-color: #FBEFE1;
 }
 
 .navbar {
@@ -210,10 +211,10 @@ text-align: left;
   width: 40px;
   height: 40px;
   font-size: 30px;
-  color: rgb(207, 58, 16);
+  color: #085182;
   display: flex;
   align-items: center;
-  border: 2px solid rgb(207, 58, 16);
+  border: 2px solid #085182;
   justify-content: center;
   border-radius: 50%;
 }
@@ -230,7 +231,7 @@ text-align: left;
 .hamb__field {
   padding: 7px 7px;
   cursor: pointer;
-  border: 2px solid #cf3a10;
+  border: 2px solid #085182;
   border-radius: 60px;
 }
 
@@ -239,7 +240,7 @@ text-align: left;
   width: 23px;
   height: 2px;
   margin: 4px auto;
-  background-color: #cf3a10;
+  background-color: #085182;
   transition: 0.2s;
 }
 
@@ -249,7 +250,7 @@ text-align: left;
   top: -82%;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #FBEFE1;
   z-index: 100;
   display: flex;
   transition: 0.3s;
@@ -272,6 +273,8 @@ text-align: left;
   justify-content: start;
   padding: 50px 0;
   overflow: auto;
+  background-color: #FBEFE1;
+  border-radius: 14px;
 }
 
 .popup .menu > li {
