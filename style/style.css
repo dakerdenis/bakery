@@ -173,7 +173,7 @@ text-align: left;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  height: 100%;
+  height: 100px;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
@@ -246,7 +246,7 @@ text-align: left;
 .popup {
   position: fixed;
   top: 99px;
-  top: -88%;
+  top: -82%;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -357,6 +357,8 @@ body.noscroll {
   font-size: 10px;
   font-weight: 400;
   text-align: center;
+  display: none;
+  visibility: hidden;
 }
 
 .main__content__image {
