@@ -254,8 +254,8 @@ text-align: left;
   z-index: 100;
   display: flex;
   transition: 0.3s;
+  box-shadow: 0px 0px 10px #085182;
 
-  box-shadow: rgba(207, 58, 16, 0.35) 0px 5px 15px;
   border-radius: 0px 0px 10px 10px;
 }
 
